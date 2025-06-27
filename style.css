@@ -1,0 +1,51 @@
+body {
+    background-color: #FCD34D;
+}
+
+main {
+    background-color: #111827 ;
+    width: 470px;
+    height: 500px;
+    margin: 50px auto;
+    box-shadow: 0px 0px 3px black;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.title {}
+
+.btn {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.generate-btn {
+    color: white;
+    background-color: #F59E0B;
+    font-weight: 600;
+    padding: 7px 14px;
+    border: none;
+    border-radius: 3px;
+}
+
+h1 {
+    color: #F59E0B;
+    
+}
+
+h1 span {
+    color: white;
+    font-family: "Karla", sans-serif;
+}
+
+h3 {
+    color: gray;
+    font-weight: 300;
+    font-family: "Inter", sans-serif; 
+}
