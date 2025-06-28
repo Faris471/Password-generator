@@ -21,6 +21,10 @@
                     <h1><span>Generate a</span><br>random password</h1>
                     <h3>Never use an insecure password again.</h3>
                 </div>
+                <div class="password-len">
+                    <label for="slider">Password length</label>
+                    <input id="slider" type="range" min="4" max="14" step="1" value="8">
+                </div>
                 <div class="btn">
                     <button class="generate-btn" onclick="generate()">Generate Passwords</button>
                 </div>
@@ -28,6 +32,9 @@
                 <div class="output">
                     <p class="password-output" id="output-one"></p>
                     <p class="password-output" id="output-two"></p>
+                </div>
+                <div class="metric">
+                    <p id="password-strength"></p>
                 </div>
             </div>
         </main>
